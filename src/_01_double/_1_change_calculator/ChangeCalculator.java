@@ -22,7 +22,12 @@ public class ChangeCalculator {
 		// Calculate how much money the user has.  Hint: Use a double variable 
 
 		// Tell the user how much money they have in dollars and cents format (e.g. $6.75)
-
+	String answer =	JOptionPane.showInputDialog("How many nickels do you have?");
+	int number = Integer.parseInt(answer);
+	String dime = JOptionPane.showInputDialog("How many dimes do you have?");
+	int cents = Integer.parseInt(dime);
+	String quarter = JOptionPane.showInputDialog("How many quarters do you have?");
+	
 	}
 }
 
