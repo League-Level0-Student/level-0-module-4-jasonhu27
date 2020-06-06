@@ -27,6 +27,10 @@ public class StringMethods {
 		
 		String answer = JOptionPane.showInputDialog("3 characters");
 		
+		.charAt
+		.length
+		.length
+		
 	}
 }
 

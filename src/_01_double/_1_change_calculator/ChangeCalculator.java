@@ -27,7 +27,9 @@ public class ChangeCalculator {
 	String dime = JOptionPane.showInputDialog("How many dimes do you have?");
 	int cents = Integer.parseInt(dime);
 	String quarter = JOptionPane.showInputDialog("How many quarters do you have?");
-	
+	int twenty = Integer.parseInt(quarter);
+	double total = 0.05*number + 0.10*cents + 0.25*twenty;
+	JOptionPane.showMessageDialog(null, "Your total is: $" + total);
 	}
 }
 
