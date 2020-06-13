@@ -26,10 +26,14 @@ public class StringMethods {
 		//             for char 'b', then print "b is at index 1"
 		
 		String answer = JOptionPane.showInputDialog("3 characters");
+		System.out.println(answer.charAt(3));
+		System.out.println(answer.length());
+		for(int i =0; i <10; i++) {
+			
+			
+		}
+		  
 		
-		.charAt
-		.length
-		.length
 		
 	}
 }
